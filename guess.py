@@ -5,7 +5,7 @@ def main():
     pronun1 ="guess"
     pronun2 ="guesses"
     try:
-        user_input = input("Type a number: ")
+        user_input = input("Type a number to be the maximum: ")
         the_number = random.randint(1, int(user_input))
         #print(the_number)
         the_number, guess = guessing_loop(the_number, guess)
